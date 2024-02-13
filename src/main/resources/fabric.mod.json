@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.valbuilder.blurpleconcrete.BBCFansBlurpleConcrete"
+			"net.valbuilder.blurpleconcrete.BlurpleConcrete"
 		],
 		"client": [
-			"net.valbuilder.blurpleconcrete.BBCFansBlurpleConcreteClient"
+			"net.valbuilder.blurpleconcrete.BlurpleConcreteClient"
 		],
 		"fabric-datagen": [
-			"net.valbuilder.blurpleconcrete.BBCFansBlurpleConcreteDataGenerator"
+			"net.valbuilder.blurpleconcrete.BlurpleConcreteDataGenerator"
 		]
 	},
 	"mixins": [
