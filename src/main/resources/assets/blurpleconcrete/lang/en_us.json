@@ -1,7 +1,7 @@
 {
-  "itemgroup.main": "Blurple Concrete",
+  "itemgroup.main": "Bloiple Concrete",
 
-  "block.blurpleconcrete.blurple_concrete": "Blurple Concrete",
-  "block.blurpleconcrete.dark_blurple_concrete": "Dark Blurple Concrete",
-  "block.blurpleconcrete.light_blurple_concrete": "Light Blurple Concrete"
+  "block.blurpleconcrete.blurple_concrete": "Bloiple Concrete",
+  "block.blurpleconcrete.dark_blurple_concrete": "Dark Bloiple Concrete",
+  "block.blurpleconcrete.light_blurple_concrete": "Light Bloiple Concrete"
 }
