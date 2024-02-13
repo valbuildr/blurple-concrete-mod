@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "blurpleconcrete",
+	"version": "${version}",
+	"name": "Blurple Concrete",
+	"description": "A mod that adds blurple coloured concrete.",
+	"authors": [
+		"valbuildr"
+	],
+	"contact": {
+		"homepage": "https://valbuilds.gay/",
+		"sources": "https://github.com/valbuildr/bbc-fans-blurple-concrete"
+	},
+	"license": "MIT",
+	"icon": "assets/blurpleconcrete/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.valbuilder.blurpleconcrete.BBCFansBlurpleConcrete"
+		],
+		"client": [
+			"net.valbuilder.blurpleconcrete.BBCFansBlurpleConcreteClient"
+		],
+		"fabric-datagen": [
+			"net.valbuilder.blurpleconcrete.BBCFansBlurpleConcreteDataGenerator"
+		]
+	},
+	"mixins": [
+		"blurpleconcrete.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
