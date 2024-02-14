@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "blurpleconcrete:item/light_blurple_dye"
+  }
+}

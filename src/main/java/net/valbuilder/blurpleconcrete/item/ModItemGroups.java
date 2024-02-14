@@ -15,12 +15,21 @@ public class ModItemGroups {
             new Identifier(BlurpleConcrete.MOD_ID, "main"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.main"))
                     .icon(() -> new ItemStack(ModBlocks.BLURPLE_CONCRETE)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.BLURPLE_DYE);
+                        entries.add(ModItems.LIGHT_BLURPLE_DYE);
+                        entries.add(ModItems.DARK_BLURPLE_DYE);
+
                         entries.add(ModBlocks.BLURPLE_CONCRETE);
                         entries.add(ModBlocks.LIGHT_BLURPLE_CONCRETE);
                         entries.add(ModBlocks.DARK_BLURPLE_CONCRETE);
+
                         entries.add(ModBlocks.BLURPLE_WOOL);
                         entries.add(ModBlocks.LIGHT_BLURPLE_WOOL);
                         entries.add(ModBlocks.DARK_BLURPLE_WOOL);
+
+//                        entries.add(ModBlocks.BLURPLE_CARPET);
+//                        entries.add(ModBlocks.LIGHT_BLURPLE_CARPET);
+//                        entries.add(ModBlocks.DARK_BLURPLE_CARPET);
                     }).build());
 
 

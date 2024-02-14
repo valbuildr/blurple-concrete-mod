@@ -1,11 +1,19 @@
 {
   "itemgroup.main": "Bloiple Coloured Blocks",
 
+  "item.blurpleconcrete.blurple_dye": "Bloiple Dye",
+  "item.blurpleconcrete.light_blurple_dye": "Light Bloiple Dye",
+  "item.blurpleconcrete.dark_blurple_dye": "Dark Bloiple Dye",
+
   "block.blurpleconcrete.blurple_concrete": "Bloiple Concrete",
   "block.blurpleconcrete.dark_blurple_concrete": "Dark Bloiple Concrete",
   "block.blurpleconcrete.light_blurple_concrete": "Light Bloiple Concrete",
 
   "block.blurpleconcrete.blurple_wool": "Bloiple Wool",
   "block.blurpleconcrete.dark_blurple_wool": "Dark Bloiple Wool",
-  "block.blurpleconcrete.light_blurple_wool": "Light Bloiple Wool"
+  "block.blurpleconcrete.light_blurple_wool": "Light Bloiple Wool",
+
+  "block.blurpleconcrete.blurple_carpet": "Bloiple Carpet",
+  "block.blurpleconcrete.dark_blurple_carpet": "Dark Bloiple Carpet",
+  "block.blurpleconcrete.light_blurple_carpet": "Light Bloiple Carpet"
 }
