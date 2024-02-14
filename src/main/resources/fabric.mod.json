@@ -2,14 +2,15 @@
 	"schemaVersion": 1,
 	"id": "blurpleconcrete",
 	"version": "${version}",
-	"name": "Blurple Concrete",
-	"description": "A mod that adds blurple coloured concrete.",
+	"name": "Blurple Coloured Blocks",
+	"description": "A mod that adds blurple coloured blocks.",
 	"authors": [
 		"valbuildr"
 	],
+	"accessWidener" : "blurpleconcrete.accesswidener",
 	"contact": {
 		"homepage": "https://valbuilds.gay/",
-		"sources": "https://github.com/valbuildr/bbc-fans-blurple-concrete"
+		"sources": "https://github.com/valbuildr/blurple-concrete-mod"
 	},
 	"license": "MIT",
 	"icon": "assets/blurpleconcrete/icon.png",
