@@ -18,6 +18,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLURPLE_CONCRETE);
                         entries.add(ModBlocks.LIGHT_BLURPLE_CONCRETE);
                         entries.add(ModBlocks.DARK_BLURPLE_CONCRETE);
+                        entries.add(ModBlocks.BLURPLE_WOOL);
+                        entries.add(ModBlocks.LIGHT_BLURPLE_WOOL);
+                        entries.add(ModBlocks.DARK_BLURPLE_WOOL);
                     }).build());
 
 
