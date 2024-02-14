@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.valbuilder.blurpleconcrete.block.ModBlocks;
 import net.valbuilder.blurpleconcrete.item.ModItemGroups;
+import net.valbuilder.blurpleconcrete.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +14,7 @@ public class BlurpleConcrete implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 	}
