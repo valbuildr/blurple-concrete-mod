@@ -19,9 +19,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLURPLE_CONCRETE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DARK_BLURPLE_CONCRETE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLURPLE_WOOL);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLURPLE_WOOL);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DARK_BLURPLE_WOOL);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.BLURPLE_WOOL, ModBlocks.BLURPLE_CARPET);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.LIGHT_BLURPLE_WOOL, ModBlocks.LIGHT_BLURPLE_CARPET);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.DARK_BLURPLE_WOOL, ModBlocks.DARK_BLURPLE_CARPET);
     }
 
     @Override
